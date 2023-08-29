@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(black, green);
+  background-image: url(../Calculator/images/back.png);
+  background-size: cover;
+}
+
+#main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#calculator-table {
+  width: 300px;
+  height: 350px;
+  background: #f7f5f5;
+  border: 2px solid #f3f8f3;
+  border-radius: 20px;
+}
+
+.entries {
+  color: #f7f1f1;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #0c0c0c;
+  border: 2px solid #60f30c;
+  border-radius: 10px;
+}
+
+.entries:hover {
+  background-color: #572a2a;
+}
+
+#calc-entries {
+  display: grid;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 20px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+}
+
+#calc-screen {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: bisque;
+  border: 2px solid #0dec0d;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#screen-label {
+  display: flex;
+  color: #080808;
+  text-align: center;
+  font-size: 30px;
+  justify-content: flex-end;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+#title {
+  color: #f3f3f0;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-title {
+  color: whitesmoke;
+  text-align: center;
+}
+address{
+  color: whitesmoke;
+  text-align: center;
+}
+#equal{
+  width:188px;
+}
